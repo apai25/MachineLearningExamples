@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, r2_score
 
 def test_classifier(which_classifier, x_train, y_train, x_test, y_test):
         classifiers = {
-        'Logistic Regression': LogisticRegression(max_iter=10000), 
+        'Logistic Regression': LogisticRegression(max_iter=10000),
         'K Neighbors': KNeighborsClassifier(p=2, metric='minkowski', n_neighbors=5),
         'Decision Tree': DecisionTreeClassifier(criterion='entropy', random_state=0),
         'Random Forest': RandomForestClassifier(criterion='entropy', n_estimators=300, random_state=0),

@@ -1,5 +1,5 @@
-import numpy as np 
-import pandas as pd 
+import numpy as np
+import pandas as pd
 
 # Importing main dataset
 dataset = pd.read_csv('train.csv')
