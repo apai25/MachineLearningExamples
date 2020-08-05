@@ -10,4 +10,9 @@ You can download the repository with SSH:
 or with HTTPS:  
 `git clone https://github.com/apai25/MachineLearningExamples.git`      
 You can also download the repository as a .zip file.  
-Each folder contains a dataset and the corresponding code that I discuss on my website. 
+Each folder contains a dataset and the corresponding code that I discuss on my website.
+
+## Update
+I have decided to archive this repository and move each project into its own repository to   
+avoid unecessary clutter. This will allow others to easily work on specific projects instead   
+of having to clone a whole repository. 
